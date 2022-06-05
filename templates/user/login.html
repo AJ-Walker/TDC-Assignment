@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="container-fluid">
+    <div class="login my-5 py-5">
+        <form action="" class="card p-3" style="background-color: #DBDFFD; width: 350px;">
+            <h1 class="text-center">Login</h1>
+            <hr>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="Eg. abc@xyz.com">
+              </div>
+              <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" class="form-control" id="password" placeholder="Eg. ********">
+              </div>
+              <button type="submit" class="btn" style="background-color: #242F9B; color: white;">Submit</button>
+              <hr>
+            <div class="text-center my-2">
+                <a href="#" class="btn btn-block" style="background-color: #9BA3EB;">
+                    <i class="fa-brands fa-google"></i> Sign in with <b>Google</b>
+                </a>
+            </div>
+        </form>
+    </div>
+</div>
+
+{% endblock content %}
