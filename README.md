@@ -21,7 +21,7 @@
 1. Clone the repo
 
    ```
-   git clone https://github.com/AJ-Walker/Avtaar-Assignment-1.git 
+   git clone https://github.com/AJ-Walker/TDC-Assignment.git 
    ```
     
 2. Create virtual environment and activate 
